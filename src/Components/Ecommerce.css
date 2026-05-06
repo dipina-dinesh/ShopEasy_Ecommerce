@@ -1,0 +1,462 @@
+/* Navbar */
+.custom-navbar {
+  background-color: black;
+}
+
+body {
+  padding-top: 110px;   /* adjust based on navbar height */
+}
+
+.logo {
+  color: orange !important;
+  font-weight: bold;
+}
+
+.nav-link-custom {
+  color: orange !important;
+  margin-left: 20px;
+}
+
+.nav-link-custom.active {
+  color: darkorange !important;
+  font-weight: bold;
+}
+
+/* ===== HOME CONTAINER ===== */
+.home-container {
+  max-width: 1200px;   /* fixed container width */
+  margin: 0 auto;      /* perfectly center */
+}
+
+/* ===== CAROUSEL ===== */
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  margin-top: 20px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.carousel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-text {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  color: white;
+}
+
+.carousel-text h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.carousel-text button {
+  padding: 10px 20px;
+  background: darkorange;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* ===== SECTION ===== */
+.section {
+  margin: 50px 0;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+}
+
+/* ===== CARD GRID ===== */
+.card-grid-home {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+/* ===== CATEGORY CARD ===== */
+/* ===== CATEGORY SECTION BACKGROUND ===== */
+.category-section {
+  background-color: darkgray;
+  padding: 60px 80px;
+  border-radius: 15px;
+  margin: 60px 0;
+  color: white;
+}
+
+.category-section h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* ===== BIGGER CATEGORY CARDS ===== */
+.card-grid {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  padding: 0 2rem;
+}
+
+.card {
+  width: 320px;          /* Bigger width */
+  height: 350px;         /* Bigger height */
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  transition: 0.3s ease;
+  text-align: center;
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.card h3 {
+  margin-top: 15px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Hover Effect */
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+}
+
+/* ===== PRODUCT CARD ===== */
+/* ===== PRODUCTS GRID ===== */
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* responsive */
+  gap: 30px;
+  padding: 40px;
+  justify-items: center;
+}
+
+/* ===== CARD ===== */
+.modern-card {
+  width: 220px;
+  height: 300px;   /* equal height for all cards */
+  background: #fff;
+  border-radius: 12px;
+  padding: 12px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: 0.3s;
+}
+
+.modern-card:hover {
+  transform: translateY(-5px);
+}
+
+/* ===== IMAGE CONTAINER ===== */
+.img-container {
+  width: 100%;
+  height: 160px;   /* fixed height */
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  /* uniform image */
+  transition: 0.3s;
+}
+
+.modern-card:hover img {
+  transform: scale(1.05);
+}
+
+/* ===== TEXT ===== */
+.modern-card h5 {
+  color: #333;   /* FIX: visible text */
+  font-size: 16px;
+  margin: 10px 0 5px;
+}
+
+.modern-card p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.modern-card .price {
+  color: darkorange;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+
+/* ===== NEW ARRIVALS CAROUSEL ===== */
+
+.new-arrivals {
+  margin-top: 60px;
+  padding: 80px 0;
+  background-color: #e9ecef !important;
+  display: block;
+}
+
+.arrival-carousel {
+  width: 80%;
+  height: 350px;
+  margin: 30px auto;
+  overflow: hidden;
+  border-radius: 15px;
+  position: relative;
+}
+
+.arrival-track {
+  display: flex;
+  transition: transform 0.6s ease-in-out;
+}
+
+.arrival-track img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+/* gap and margin for footer */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+footer {
+  width: 100vw;
+  margin: 0;
+}
+
+/* Products Section */
+.products-section {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.products-title {
+  margin-bottom: 20px;
+}
+
+/* Category Buttons */
+.category-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.category-btn {
+  padding: 8px 16px;
+  margin: 5px;
+  border: none;
+  background-color: #eee;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.category-btn:hover {
+  background-color: #ddd;
+}
+
+.category-btn.active {
+  background-color: black;
+  color: white;
+}
+
+/* Grid */
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 cards per row */
+  gap: 30px;
+  padding: 40px;
+  justify-items: center;
+}
+
+/* Card */
+.modern-card {
+  width: 220px;
+  height: 280px;   /* ✅ fixed height */
+  background: #fff;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.modern-card:hover {
+  transform: translateY(-5px);
+}
+
+.modern-card img {
+  width: 100%;
+  height: 160px;   /* 👈 reduce height */
+  object-fit: contain; /* 👈 keeps image clean */
+  margin-bottom: 10px;
+}
+
+.img-container {
+  width: 100%;
+  height: 150px;   /* ✅ fixed image area */
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* ✅ keeps all images uniform */
+}
+
+.modern-card:hover img {
+  transform: scale(1.05);
+}
+
+.card-content {
+  margin-top: 10px;
+}
+
+.modern-card h5 {
+  color: white;
+  font-weight: 600;
+}
+
+.modern-card .category {
+  color: #bbb;
+}
+
+.modern-card .price {
+  color: orange;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.add-cart-btn {
+  margin-top: 12px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 25px;
+  background: linear-gradient(135deg, darkorange, orange);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.add-cart-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(255, 140, 0, 0.4);
+}
+
+/* ===== CART SECTION ===== */
+
+/* ===== CART GRID ===== */
+.cart-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  justify-items: center;
+}
+
+/* ===== FIXED SIZE CARD ===== */
+.cart-card {
+  width: 230px;          /* ✅ fixed width */
+  height: 340px;         /* ✅ fixed height */
+  background: white;
+  border-radius: 15px;
+  padding: 12px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* keeps spacing equal */
+}
+
+/* ===== IMAGE SIZE FIX ===== */
+.cart-img {
+  width: 100%;
+  height: 150px;         /* ✅ fixed image height */
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.cart-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;     /* ensures same look */
+}
+
+/* ===== TEXT CONTROL ===== */
+.cart-name {
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 8px;
+
+  /* ✅ prevents long names from breaking layout */
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.cart-category {
+  font-size: 13px;
+  color: gray;
+}
+
+.cart-price {
+  font-size: 16px;
+  font-weight: bold;
+  color: darkorange;
+}
+
+/* ===== BUTTON ALIGNMENT ===== */
+.qty-controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.qty-controls button {
+  padding: 4px 10px;
+  border: none;
+  background: black;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.remove-btn {
+  margin-top: 8px;
+  padding: 6px;
+  border: none;
+  background: crimson;
+  color: white;
+  border-radius: 20px;
+  font-size: 13px;
+}

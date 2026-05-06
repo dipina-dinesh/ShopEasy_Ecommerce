@@ -1,0 +1,133 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "price": 65000,
+      "category": "Electronics",
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8"
+    },
+    {
+      "id": 2,
+      "name": "Smart Phone",
+      "price": 25000,
+      "category": "Electronics",
+      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9"
+    },
+    {
+      "id": 3,
+      "name": "Smart Watch",
+      "price": 5000,
+      "category": "Electronics",
+      "image": "https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b"
+    },
+    {
+      "id": 4,
+      "name": "Bluetooth Speaker",
+      "price": 4000,
+      "category": "Electronics",
+      "image": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef"
+    },
+    {
+      "id": 13,
+      "name": "Headphones",
+      "price": 3000,
+      "category": "Electronics",
+      "image": "https://images.unsplash.com/photo-1518444065439-e933c06ce9cd"
+    },
+    {
+      "id": 14,
+      "name": "Tablet",
+      "price": 20000,
+      "category": "Electronics",
+      "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0"
+    },
+
+    {
+      "id": 5,
+      "name": "Men's T-Shirt",
+      "price": 799,
+      "category": "Fashion",
+      "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab"
+    },
+    {
+      "id": 6,
+      "name": "Jeans",
+      "price": 1499,
+      "category": "Fashion",
+      "image": "https://images.unsplash.com/photo-1542272604-787c3835535d"
+    },
+    {
+      "id": 7,
+      "name": "Sneakers",
+      "price": 2999,
+      "category": "Fashion",
+      "image": "https://images.unsplash.com/photo-1528701800489-20be3c46f6e1"
+    },
+    {
+      "id": 8,
+      "name": "Women's Handbag",
+      "price": 2499,
+      "category": "Fashion",
+      "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3"
+    },
+    {
+      "id": 15,
+      "name": "Jacket",
+      "price": 1999,
+      "category": "Fashion",
+      "image": "https://images.unsplash.com/photo-1520975922284-3e88d0b9c7b2"
+    },
+    {
+      "id": 16,
+      "name": "Sunglasses",
+      "price": 999,
+      "category": "Fashion",
+      "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083"
+    },
+
+    {
+      "id": 9,
+      "name": "Refrigerator",
+      "price": 35000,
+      "category": "Home Appliances",
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c"
+    },
+    {
+      "id": 10,
+      "name": "Washing Machine",
+      "price": 22000,
+      "category": "Home Appliances",
+      "image": "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1"
+    },
+    {
+      "id": 11,
+      "name": "Microwave Oven",
+      "price": 12000,
+      "category": "Home Appliances",
+      "image": "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078"
+    },
+    {
+      "id": 12,
+      "name": "Air Conditioner",
+      "price": 40000,
+      "category": "Home Appliances",
+      "image": "https://images.unsplash.com/photo-1581092334439-59f4a3c33e2b"
+    },
+    {
+      "id": 17,
+      "name": "Mixer Grinder",
+      "price": 3500,
+      "category": "Home Appliances",
+      "image": "https://images.unsplash.com/photo-1598514982840-7d36e9dc4f1d"
+    },
+    {
+      "id": 18,
+      "name": "Electric Kettle",
+      "price": 1500,
+      "category": "Home Appliances",
+      "image": "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078"
+    }
+  ],
+  "cart": []
+}

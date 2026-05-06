@@ -10,7 +10,7 @@ function Products() {
   const { addToCart } = useContext(CartContext);
 
   useEffect(() => {
-    fetch("http://localhost:3000/products")
+    fetch("https://your-api-name.onrender.com/products")
       .then((res) => res.json())
       .then((data) => setProducts(data))
       .catch((err) => console.log(err));
